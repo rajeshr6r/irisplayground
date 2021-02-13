@@ -19,7 +19,7 @@
 
 This repository is not a Machine Learning Tutorial . But a tutorial to demonstrate how quickly one can productionize Machine Learing Models with minimal effort.
 
-Also for dockers I'm running a limited Raspbian Stretch image to keep it light . Note that it is not always the right choice . For example if you are running libraries like H2O , Tensorflow or PyTorch then the Raspbian image can make life very difficult. Try at your own risk. 
+Also for dockers I'm running a limited a base UBUNTU image . Note that it is not always the right choice . For example if you are running libraries like H2O , Tensorflow or PyTorch then the image can get heavier. And slimming up your docker image is an art by itself . Happy Hunting . 
 
 
 <br>
@@ -42,6 +42,8 @@ And ofcourse [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) :)
 
 ## Wish to cut the english and jump into action ? 
 
-> You can do that by simply pulling the docker image with the following command 
+> You can do that by simply pulling the docker image with the following command and then running it as follows
 
 > docker pull rajeshr6r/irisplayground:latest
+
+> docker run -itd -p 8000:8000 rajeshr6routlook/irisplayground:latest
