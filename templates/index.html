@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>IRIS Species Detection Playground</h1>
+
+If you'd like to test this model with a value from the train data set refer <a href="https://gist.github.com/curran/a08a1080b88344b0c8a7" target="_blank">here</a>
+
+<br><br>
+
+Please try using positive values for all the features as negative values may not give a good result .
+
+<br><br>
+<form action="{{url_for('predict')}}" method="post">
+  <label for="sepallength">Sepal Length:</label>
+  <input type="number" id="sepallength" name="sepallength" step=".1" ><br><br>
+  
+  <label for="sepalwidth">Sepal Width:</label>
+  <input type="number" id="sepalwidth" name="sepalwidth" step=".1" ><br><br>
+  
+  <label for="petallength">Petal Length:</label>
+  <input type="number" id="petallength" name="petallength" step=".1" ><br><br>
+  
+  <label for="petalwidth">Petal Width:</label>
+  <input type="number" id="petalwidth" name="petalwidth" step=".1" ><br><br>
+  
+
+
+  <input type="submit" value="Submit">
+</form>
+<label for="Species Predicted">{{prediction_text}}</label><br>
+
+
+
+</body>
+</html>
