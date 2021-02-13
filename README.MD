@@ -24,7 +24,7 @@ This repository is not a Machine Learning Tutorial . But a tutorial to demonstra
 
 ## Shameless Marketing :)
 
-> If you find this useful you can consider following me on [Medium]() 
+> If you find this useful you can consider following me on [Medium](https://rajesh-r6r.medium.com/) 
 
 <br>
 
