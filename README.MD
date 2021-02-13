@@ -9,7 +9,7 @@
 
 > Python Flask - For rendering a single page app with the models loaded on the background 
 
-> AWS ECS - To demonstrate how to consume a docker container on internet.
+> Azure Container Instanes - To demonstrate how to consume a docker container on internet.
 
 > HTML - For the single web app
 
