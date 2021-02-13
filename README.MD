@@ -21,6 +21,8 @@ This repository is not a Machine Learning Tutorial . But a tutorial to demonstra
 
 Also for dockers I'm running a limited a base UBUNTU image . Note that it is not always the right choice . For example if you are running libraries like H2O , Tensorflow or PyTorch then the image can get heavier. And slimming up your docker image is an art by itself . Happy Hunting . 
 
+Please drop a note if you find anything simpler.
+
 
 <br>
 
