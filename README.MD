@@ -26,3 +26,12 @@ This repository is not a Machine Learning Tutorial . But a tutorial to demonstra
 
 > If you find this useful you can consider following me on [Medium]() 
 
+<br>
+
+## Helpful Reference URLs
+
+[IRIS Dataset gist](https://gist.github.com/curran/a08a1080b88344b0c8a7)
+
+[IRIS Dataset UCI Machine Learning Reposiroty](https://archive.ics.uci.edu/ml/datasets/iris)
+
+And ofcourse [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) :)
