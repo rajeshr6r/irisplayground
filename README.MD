@@ -51,7 +51,7 @@ And ofcourse [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) :)
 > You can do that by simply pulling the docker image with the following command and then running it as follows
 
 ~~~
-docker pull rajeshr6r/irisplayground:latest
+docker pull rajeshr6routlook/irisplayground:latest
 
 docker run -itd -p 8000:8000 rajeshr6routlook/irisplayground:latest
 ~~~
@@ -59,7 +59,7 @@ docker run -itd -p 8000:8000 rajeshr6routlook/irisplayground:latest
 > or if you'd like the python only ( which is not true as underneath the python image uses debian buster )
 
 ~~~ 
-docker pull rajeshr6r/pythonirisplayground:latest
+docker pull rajeshr6routlook/pythonirisplayground:latest
 
 docker run -itd -p 8000:8000 rajeshr6routlook/pythonirisplayground:latest
 
