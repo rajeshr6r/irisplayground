@@ -15,6 +15,11 @@
 
 <br>
 
+## I have another repository that uses streamlit for the same IRIS Data Set 
+
+### If you are interested please visit [here](https://github.com/rajeshr6r/irisplaygroundstreamlit)
+
+
 ## Disclaimer 
 
 This repository is not a Machine Learning Tutorial . But a tutorial to demonstrate how quickly one can productionize Machine Learing Models with minimal effort.
